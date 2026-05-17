@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# notebooks
+.ipynb_checkpoints/
+
+# mlflow
+mlruns/
+
+# modelos treinados
+models/trained/
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# vscode
+.vscode/
+
+# pytest
+.pytest_cache/
+
+# docker
+*.log
