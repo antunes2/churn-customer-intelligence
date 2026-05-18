@@ -9,24 +9,36 @@ wheels/
 # Virtual environments
 .venv
 
+# uv
+.venv/
+
+
+# datasets
+data/raw/*.csv
+data/interim/*.csv
+data/processed/*.csv
+
 # notebooks
 .ipynb_checkpoints/
+
+# cache
+__pycache__/
+.pytest_cache/
+*.pyc
 
 # mlflow
 mlruns/
 
-# modelos treinados
+# modelos
 models/trained/
+
+# env
+.env
+
+# editor
+.vscode/
+.idea/
 
 # sistema
 .DS_Store
 Thumbs.db
-
-# vscode
-.vscode/
-
-# pytest
-.pytest_cache/
-
-# docker
-*.log
